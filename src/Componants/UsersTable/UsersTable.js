@@ -47,8 +47,8 @@ const UsersTable = () => {
           <UserSortDropDown />
         </div>
 
-
       </div>
+        {/* this is table footer part */}
       <UsersTableFooter />
     </div>
   );
