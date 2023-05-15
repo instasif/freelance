@@ -1,6 +1,7 @@
 import React from "react";
 import UserSearchBar from "./UserSearchBar";
 import UserSortDropDown from "./UserSortDropDown";
+import UsersTableFooter from "./UsersTableFooter";
 
 const UsersTable = () => {
 
@@ -48,6 +49,7 @@ const UsersTable = () => {
 
 
       </div>
+      <UsersTableFooter />
     </div>
   );
 };
